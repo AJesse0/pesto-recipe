@@ -1,9 +1,14 @@
 html {
   font: 100%/1.15 sans-serif;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
   max-width: 60rem;
+  font-family: sans-serif;
+  padding: 0 3.5%;
+  padding: 1.2rem;
   background-color: #fffd60;
   padding: 2rem;
   margin: 0 auto;
@@ -14,6 +19,20 @@ img {
   width: auto;
   max-width: 100%;
   height: auto;
+}
+
+/* links */
+a {
+  color: green;
+}
+
+a:hover {
+  color: olive;
+}
+
+a:focus,
+a:active {
+  color: blue;
 }
 
 /* lists */
